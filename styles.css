@@ -1,9 +1,15 @@
-/* *{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-} */
+}
+
+.list-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 
 body {
 
@@ -33,12 +39,14 @@ body {
 }
 
 .description {
-    margin-top: -30px;
+    margin-top: -20px;
     text-align: center;
+    margin-left: 10px;
 }
 
 
 .input-section {
+    margin-top: 20px;
     display: flex;
     gap: 10px;
 }
@@ -104,7 +112,7 @@ body {
     width: 20px;
     height: 20px;
     cursor: pointer;
-    accent-color: rgb(49, 103, 230);
+    accent-color: rgb(233, 10, 10);
 }
 
 .checkbox {
